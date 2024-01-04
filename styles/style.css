@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+header{    background: linear-gradient(343deg, #0008ff, black);}
+.logo{}
+.logo img{    width: 3%;
+    margin: 1% 2%;}
+.navber{}
+.navber ul{    display: flex;
+    list-style: none;
+    justify-content: right;
+    font-size: 30px;
+    font-family: sans-serif;}
+.navber ul li{margin: -4% 1%;}
+.navber ul li a{text-decoration: none;
+    color: azure;}
+.head{background: linear-gradient(196deg, #1b00ff, #020202);
+    height: 100vh;}
+.head-text{    width: 33%;
+    border: 2px groove;
+    border-radius: 10px;
+    padding: 1% 4%;
+    position: absolute;
+    margin-top: 10%;
+    margin-left: 5%;
+    background: linear-gradient(45deg, #c20aff, black);}
+.head-text h1{    color: white;
+    font-family: cursive;
+    text-align: center;}
+.head-text h2{    color: azure;
+    font-family: math;}
+.head-text button{    background: linear-gradient(45deg, #4248ff, black);
+    padding: 1%;
+    font-weight: 700;
+    color: aliceblue;
+    margin-top: 3%;}
+.head-pic{}
+.head-pic img{       width: 43%;
+    clip-path: polygon(51% 0, 100% 50%, 50% 100%, 0% 50%);
+    margin-left: 57%;
+    margin-top: 4%;}
+.font{}
+.font h1{    text-align: center;
+    position: absolute;
+    margin: 4% 45%;
+    color: #211e30;
+    font-family: math;
+    font-size: 39px;}
+.font h2{position: absolute;
+    margin: 8% 40%;
+    font-size: 45px;
+    text-align: center;
+    font-family: math;}
+.card{     display: flex;
+    gap: 20px;
+    background: linear-gradient(48deg, #c8b6f5, white);
+    height: 100vh;       display: flex;
+    gap: 20px;
+    background: linear-gradient(48deg, #c8b6f5, white);}
+.card div{    width: 17%;
+    margin: 17% auto;
+    height: 585px;
+    border: 1px solid gray;
+    border-radius: 10px;
+    padding: 16px;
+    background: #fffbf4;}
+.card div:hover{    margin-top: 284px;
+                    transition: 0.5s;
+                    background: #f9f1e3;
+                    box-shadow: 6px -8px 13px #64368f;}
+.card div img{    width: 95%;
+    height: 325px;
+    border: 3px groove blueviolet;
+    border-radius: 10px;}
+.card div h1{text-align: center;
+    margin: 15px;
+    color: #1a1a2c;
+    font-family: cursive;}
+.card div h2{text-align: justify;
+    font-family: monospace;
+    color: #021ba1;}
+.card div button{margin-top: 2%;
+    padding: 1%;
+    font-weight: 700;
+    width: 32%;
+    color: white;
+    background: linear-gradient(45deg, #1f5685, #220909);}
+.photo{    display: flex;
+    height: 95vh;
+    background: linear-gradient(235deg, #e9c411, transparent);
+    border: 1px groove black;
+}
+.photo div{  width: 100%;
+    margin-top: 25%;
+    margin-left: 7%;}
+.photo div img{    clip-path: polygon(25% 0%, 75% 0%, 100% 50%, 75% 100%, 25% 100%, 0% 50%);
+    height: 340px;
+    width: 65%;}
+.hexagon{position: absolute;
+    margin-top: 8%;}
+.hexagon h1{    color: #252532;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursive;}
+.hexagon h2{    width: 30%;
+    text-align: justify;
+    margin-left: 35%;
+    font-family: cursive;
+    color: #241616;}
